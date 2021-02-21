@@ -3,8 +3,10 @@
 This is a Node JS project: Weather app
 
 # Packages installed
-- request
+- postman-request
 - nodemon
+- express
+- hbs
 
 # To run
 - git clone && npm i
