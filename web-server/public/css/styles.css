@@ -1,12 +1,13 @@
 body {
 	color: #333333;
 	font-family: Arial, Helvetica, sans-serif;
-	max-width: 650px;
+	max-width: 700px;
 	margin: 0 auto;
 	padding: 0 16px;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	text-align: center;
 }
 
 footer {
@@ -23,7 +24,6 @@ header {
 
 h1 {
 	font-size: 64px;
-	margin-left: auto;
 }
 
 header a {
@@ -55,5 +55,96 @@ button {
 
 .search-content {
 	padding: 20px 0;
+	font-size: 32px;
+	line-height: 1.5;
+}
 
+.help-content {
+	font-size: 24px;
+	padding: 0 16px;
+	line-height: 1.5;
+}
+
+.help-title {
+	text-align: center;
+}
+
+.help-description {
+	padding-top: 40px;
+	font-size: 20px;
+	text-align: justify;
+}
+p a {
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+p a:hover {
+	color: #888888;
+}
+
+@media screen and (max-width: 1025px) {
+	body {
+		background-color: black;
+	}
+
+	header {
+		justify-content: center;
+		color: #fff;
+	}
+
+	h1 {
+		font-size: 48px;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		padding: 30px 30px;
+	}
+
+	.nav-bar {
+		font-size: 24px;
+	}
+
+	form {
+		display: flex;
+		justify-content: center;
+	}
+
+	button {
+		margin-left: 10px;
+	}
+
+	.search-content {
+		display: flex;
+		flex-direction: column;
+		padding: 12px 12px;
+		color: #fff;
+	}
+
+	#message-1 {
+		text-align: center;
+		font-size: 26px;
+	}
+
+	#message-2 {
+		line-height: 2.5;
+		text-align: center;
+		font-size: 17px;
+	}
+
+	img {
+		display: flex;
+		margin: auto;
+	}
+
+	.help-content {
+		color: #ffff;
+		font-size: 24px;
+		padding: 0 16px;
+		line-height: 1.5;
+	}
+
+	p a {
+		color: #fff;
+	}
 }
