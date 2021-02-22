@@ -83,6 +83,10 @@ p a:hover {
 	color: #888888;
 }
 
+.about-content {
+	font-size: 26px;
+}
+
 @media screen and (max-width: 1025px) {
 	body {
 		background-color: black;
@@ -135,6 +139,7 @@ p a:hover {
 	img {
 		display: flex;
 		margin: auto;
+		padding-top: 40px ;
 	}
 
 	.help-content {
@@ -145,6 +150,11 @@ p a:hover {
 	}
 
 	p a {
+		color: #fff;
+	}
+
+	.about-content {
+		font-size: 18px;
 		color: #fff;
 	}
 }
