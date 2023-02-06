@@ -12,6 +12,3 @@ This is a Node JS project: Weather app
 - git clone && npm i
 - npm run start
 - http://localhost:3000
-
-# Live
- - https://rod-weather-app.herokuapp.com/
